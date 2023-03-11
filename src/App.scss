@@ -1,0 +1,22 @@
+.mobile__overlap{
+    display: none;
+}
+.mobile__text{
+    font-weight: 700;
+    font-size: 32px;
+    padding: 15px;
+}
+
+@media screen and (max-width: 700px){
+    .App{
+        display: none;
+    }
+    .mobile__overlap{
+        display: block;
+        text-align: center;
+    }
+    .mobile__text{
+        margin-top: 50%;
+        transform: translateY(-50%);
+    }
+  }
